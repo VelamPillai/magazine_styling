@@ -115,10 +115,8 @@ footer {
   width: 98%;
   height: fit-content;
   border: 4px red solid;
-  /* margin-top:50px; */
-  /* margin-bottom: 50px;
-    margin-right: 10px; */
   margin: 50px auto;
+  background-color: rgba(172, 161, 161, 0.671);;
 }
 
 footer p {
