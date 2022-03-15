@@ -113,6 +113,7 @@ aside {
 
 footer {
   width: 98%;
+  backgroun-color: rgba(202, 197, 197, 0.623);
   height: fit-content;
   border: 4px red solid;
   /* margin-top:50px; */
