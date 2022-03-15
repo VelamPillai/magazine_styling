@@ -2,13 +2,15 @@
 body {
   margin: 0;
   padding: 0;
+  color: rgb(148, 33, 33);
 }
 .container {
-  background-color: rgb(106, 236, 193);
-  width: 70vw;
-  height: 100vh;
+  background-color: rgb(106, 236, 193);  
+  width: 60vw;
+  height: 100%;
   margin: 0 auto;
   border: 1px rgb(76, 179, 144) solid;
+  padding: 10px;
 }
 
 /* header and Navigation - styling */
@@ -20,15 +22,19 @@ header {
 }
 .header_nav {
   display: inline-block;
+  margin:3px;
   
 }
 
 .header_image {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+  
+  
 }
-ul.header_nav_list{
-   
+ul{    
+    position:absolute;
+    top:20px;
 }
 .header_nav_list li {
   display: inline-block;
@@ -36,10 +42,91 @@ ul.header_nav_list{
   background-color: darkgreen;
   border-radius: 15%;
   padding: 5px;
-  vertical-align: auto;
-  margin-top: 100px;
+  
+  /* margin-bottom: 100px; */
 }
 .header_nav_list a {
   text-decoration: none;
   color: white;
+}
+
+/* main -styling */
+
+/* main_header */
+.main_header{
+    
+    font-weight:1000;
+    font-family:monospace;
+}
+
+.h3_style_main{
+    font-weight: 1000;
+    font-family:monospace;  
+}
+/* Article section - styling */
+ 
+ .article_section article{
+    display:inline;
+} 
+
+.article_div{
+    width:300px;
+    height:700px;
+    background-color: rgba(202, 197, 197, 0.623);
+    border:2px solid black;
+    margin-right: 5px;
+    display: inline-block;
+    padding:10px;
+    box-sizing: border-box;
+}
+.article_div img{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    padding:15px;
+   
+}
+.article_first_para{
+    font-weight: bold;
+    font-family: monospace;
+    padding:10px;
+    margin:0px auto;
+
+}
+.article_second_para
+{
+    width:80%;
+    height:fit-content;
+    background-color: white;
+    padding:10px;
+    margin:0px auto;
+}
+
+aside{
+    width:50%;
+    height:fit-content;
+    background-color: rgba(172, 161, 161, 0.671);
+    font-family: monospace;
+    padding: 10px;
+    border-left: brown 2px solid;
+    border-bottom: brown 2px solid;
+}
+
+footer{
+    width:98%;
+    height:fit-content;
+    border: 4px red solid;
+    /* margin-top:50px; */
+    /* margin-bottom: 50px;
+    margin-right: 10px; */
+    margin:50px auto;
+}
+
+footer p{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    border:4px red solid; 
+    margin-left:10px;
+    margin-right: 10px;
 }
